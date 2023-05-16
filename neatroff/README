@@ -1,0 +1,18 @@
+NEATROFF
+========
+
+Neatroff is an implementation of troff typesetting system in C
+programming language.  Neatroff and its companion programs can be
+obtained from http://litcave.rudi.ir/.
+
+Neatroff:			git://repo.or.cz/neatroff.git
+Postscript post-processor:	git://repo.or.cz/neatpost.git
+Eqn pre-processor:		git://repo.or.cz/neateqn.git
+Generating font descriptions:	git://repo.or.cz/neatmkfn.git
+Top-level makefile and macros:	git://repo.or.cz/neatroff_make.git
+
+Neatroff_make contains a set of standard macros and a top-level
+makefile to obtain, build, and install neatroff and its pre- and
+post-processors.  For compiling neatroff and neatpost manually, modify
+FDIR and MDIR of their Makefiles to point the directories containing
+the default output device and macros.
